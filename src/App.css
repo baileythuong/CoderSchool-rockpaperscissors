@@ -1,22 +1,40 @@
-.App {
+.navigation-bar {
+padding-bottom: 7rem;
+}
+
+.choice-card {
+  font-weight: 300;
   text-align: center;
+  border-radius: 25px;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.App-logo {
-  height: 40vmin;
+img {
+  width: 250px;
+  height: 250px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-size: 50px;
 }
 
-.App-link {
-  color: #09d3ac;
+.winner {
+  color: green;
+  border: 10px solid green;
+}
+
+.loser {
+  color: red;
+  border: 10px solid red;
+}
+
+.black {
+  color: black;
+  border: 10px solid black;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
 }
